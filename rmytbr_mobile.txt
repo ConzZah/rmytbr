@@ -1,0 +1,10 @@
+! Title: rmytbr-mobile (remove youtube brainrot)
+! Author: ConzZah
+! Description: this filter list removes yt-shorts on the mobile webpage.
+! Version: 1.0 (14.01.2025)
+! Expires: 2 days
+m.youtube.com##.reel-shelf-items
+m.youtube.com##.reel-shelf-header
+m.youtube.com##.rich-section-content
+m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
+m.youtube.com##ytm-compact-link-renderer.item:nth-of-type(4)

@@ -1,23 +1,27 @@
 ! Title: rmytbr-desktop (remove youtube brainrot)
 ! Author: ConzZah
 ! Description: this filter list removes yt-shorts on the desktop webpage.
-! Version: 1.0 (14.01.2025)
+! Version: 2.0 (05.11.2025)
 ! Expires: 2 days
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com##.yt-tab-group-shape-wiz__slider
 www.youtube.com##yt-multi-page-menu-section-renderer.ytd-multi-page-menu-renderer.style-scope:nth-of-type(3)
 www.youtube.com##yt-multi-page-menu-section-renderer.ytd-multi-page-menu-renderer.style-scope:nth-of-type(5)
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(4)
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 www.youtube.com###dismissible > .ytd-rich-shelf-renderer.style-scope
-www.youtube.com##.yt-tab-group-shape-wiz__slider
-www.youtube.com###guide-links-primary
-www.youtube.com###guide-links-secondary
+www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
 www.youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
 www.youtube.com##ytd-mini-guide-entry-renderer:has-text(Shorts)
-www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(1)
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(2)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(SHORTS)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(1):has-text(Shorts)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(2):has-text(Shorts)
+www.youtube.com##yt-chip-cloud-chip-renderer.yt-chip-cloud-renderer.style-scope:has-text(Shorts)
 www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope > .ytd-video-renderer.style-scope:has-text(SHORTS)
-www.youtube.com##yt-chip-cloud-chip-renderer.yt-chip-cloud-renderer.style-scope:nth-of-type(2):has-text(Shorts)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(Shorts)
+www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope > .ytd-video-renderer.style-scope:has-text(Shorts)
+www.youtube.com##.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:has-text(Shorts)
+www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:has-text(Shorts)
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5):has-text(More from YouTube)
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope > .ytd-rich-section-renderer.style-scope:has-text(Monthly paid subscription)
